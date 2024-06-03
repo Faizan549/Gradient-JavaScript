@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+}
+#myBtn1{
+    background-color: rgba(168, 235, 18);
+    color: rgba(34, 34, 34);
+    background-color: rgba(168, 235, 18);
+    color: rgba(34, 34, 34);
+    border: none;
+    padding: 9px 29px;
+    border-radius: 20px 20px;
+    cursor: pointer; 
+}
+#myBtn2{
+    background-color: rgb(38 40 34);
+    color: white;
+    border: none;
+    padding: 9px 29px;
+    border-radius: 20px 20px;
+    cursor: pointer;
+}
